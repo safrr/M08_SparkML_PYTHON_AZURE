@@ -15,10 +15,12 @@ terraform destroy
 ![](screen/2.png)
 * 3 - Building a box plots to determine correlations between features (fixed_acidity,	volatile_acidity, citric_acid, residual_sugar, chlorides, free_sulfur_dioxide, total_sulfur_dioxide, density, pH, sulphates, alcohol) and wine quality.
 ![](screen/3.png)
+
 The median alcohol content of high quality wines is greater than even the 75th quantile of low quality wines. High alcohol content is correlated with quality.
 Low quality wines have a greater density than high quality wines. Density is inversely correlated with quality.
 * 4 - Check for missing values.
 ![](screen/4.png) 
+
 There are no missing values.
 * 5 - Building a Baseline Model, feature importances output by the model as a sanity-check:
 ![](screen/5.png) 
