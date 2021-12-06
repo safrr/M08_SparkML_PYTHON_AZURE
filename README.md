@@ -24,6 +24,7 @@ Low quality wines have a greater density than high quality wines. Density is inv
 There are no missing values.
 * 5 - Building a Baseline Model, feature importances output by the model as a sanity-check:
 ![](screen/5.png) 
+
 Both alcohol and density are important in predicting quality.
 * 6 - The experiment result: wine-quality model.
 ![](screen/6.png) 
